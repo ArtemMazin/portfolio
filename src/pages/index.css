@@ -1,6 +1,99 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-body {
+.body {
   font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f0e3ca;
+  background: radial-gradient(
+    100% 100% at 50% 100%,
+    #1f1e1b 21.52%,
+    #1b1a17 100%
+  );
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  height: 80px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 60px;
+  height: 60px;
+}
+.header__menu {
+  display: flex;
+  gap: 64px;
+  list-style-type: none;
+}
+.header__link {
+  text-decoration: none;
+  color: #f0e3ca;
+}
+.profile {
+}
+.profile__content {
+}
+.profile__about {
+}
+.profile__title {
+}
+.profile__subtitle {
+}
+.profile__text {
+}
+.profile__background {
+}
+.profile__avatar {
+}
+.description {
+}
+.description__image {
+}
+.description__text {
+}
+.skills {
+}
+.block {
+}
+.block__title {
+}
+.block__cards {
+}
+.skills__card {
+}
+.skills__image {
+}
+.skills__image-name {
+}
+.works {
+}
+.works__card {
+}
+.footer {
+}
+.footer__description {
+}
+.footer__logo {
+}
+.footer__text {
+}
+.footer__menu {
+}
+.footer__title {
+}
+.footer__links {
+}
+.footer__link {
+}
+.footer__link-svg {
+}
+.footer__link-text {
 }
