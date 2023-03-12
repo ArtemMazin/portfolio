@@ -1,0 +1,8 @@
+.description {
+  min-height: 228px;
+  margin: 0 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}

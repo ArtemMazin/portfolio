@@ -20,12 +20,10 @@
 @import url(../../blocks/profile/__text/profile__text.css);
 @import url(../../blocks/profile/__title/profile__title.css);
 
-.description {
-}
-.description__image {
-}
-.description__text {
-}
+@import url(../../blocks/description/description.css);
+@import url(../../blocks/description/__image/description__image.css);
+@import url(../../blocks/description/__text/description__text.css);
+
 .skills {
 }
 .block {
