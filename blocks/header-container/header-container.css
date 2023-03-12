@@ -1,0 +1,7 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #1b1a17;
+  border-bottom: #f0e3ca 1px solid;
+}

@@ -14,12 +14,14 @@
     <link
       rel="stylesheet"
       href="./pages/index.css" />
-    <title>Портфолио</title>
+    <title>Мазин Артем</title>
   </head>
   <body class="body">
-    <div class="wrapper">
+    <div class="header-container">
       <header class="header">
-        <a href="#"
+        <a
+          href="https://github.com/ArtemMazin"
+          target="_blank"
           ><img
             src="../images/git.svg"
             alt="Мой гитхаб"
@@ -28,34 +30,36 @@
         <ul class="header__menu">
           <li>
             <a
-              href=""
+              href="#"
               class="header__link"
               >Обо мне</a
             >
           </li>
           <li>
             <a
-              href=""
+              href="#skills"
               class="header__link"
               >Навыки</a
             >
           </li>
           <li>
             <a
-              href=""
+              href="#works"
               class="header__link"
               >Мои работы</a
             >
           </li>
           <li>
             <a
-              href=""
+              href="#contacts"
               class="header__link"
               >Контакты</a
             >
           </li>
         </ul>
       </header>
+    </div>
+    <div class="wrapper">
       <main>
         <section class="profile">
           <div class="profile__content">
@@ -87,7 +91,9 @@
           </p>
         </section>
 
-        <section class="skills">
+        <section
+          class="skills"
+          id="skills">
           <div class="block">
             <h2 class="block__title">Мои навыки</h2>
             <ul class="block__cards">
@@ -134,30 +140,55 @@
             </ul>
           </div>
         </section>
-        <section class="works">
+        <section
+          class="works"
+          id="works">
           <div class="block">
-            <h2 class="block__title"></h2>
+            <h2 class="block__title">Мои работы</h2>
             <ul class="block__cards">
               <li>
                 <a
-                  href=""
-                  class="works__card"></a>
+                  href="https://github.com/ArtemMazin/to-do.git"
+                  target="_blank"
+                  class="works__card"
+                  ><img
+                    src="../images/preview-todo.png"
+                    alt=""
+                    srcset=""
+                    class="works__image"
+                /></a>
               </li>
               <li>
                 <a
-                  href=""
-                  class="works__card"></a>
+                  href="https://github.com/ArtemMazin/mesto.git"
+                  target="_blank"
+                  class="works__card"
+                  ><img
+                    src="../images/preview-mesto.png"
+                    alt=""
+                    srcset=""
+                    class="works__image"
+                /></a>
               </li>
               <li>
                 <a
-                  href=""
-                  class="works__card"></a>
+                  href="https://github.com/ArtemMazin/Discover.git"
+                  target="_blank"
+                  class="works__card"
+                  ><img
+                    src="../images/preview-discover.png"
+                    alt=""
+                    srcset=""
+                    class="works__image"
+                /></a>
               </li>
             </ul>
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer
+        class="footer"
+        id="contacts">
         <div class="footer__description">
           <a href=""
             ><img
