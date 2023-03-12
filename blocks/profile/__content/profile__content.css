@@ -1,0 +1,6 @@
+.profile__content {
+  min-height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

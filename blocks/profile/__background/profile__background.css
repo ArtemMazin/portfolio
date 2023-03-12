@@ -1,0 +1,8 @@
+.profile__background {
+  width: 600px;
+  height: 575px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../images/avatar-background.png);
+}
