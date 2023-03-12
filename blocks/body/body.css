@@ -1,0 +1,12 @@
+.body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f0e3ca;
+  background: radial-gradient(
+    100% 100% at 50% 100%,
+    #1f1e1b 21.52%,
+    #1b1a17 100%
+  );
+}

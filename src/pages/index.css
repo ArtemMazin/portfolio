@@ -1,42 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-.body {
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #f0e3ca;
-  background: radial-gradient(
-    100% 100% at 50% 100%,
-    #1f1e1b 21.52%,
-    #1b1a17 100%
-  );
-}
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.header {
-  height: 80px;
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header__logo {
-  width: 60px;
-  height: 60px;
-}
-.header__menu {
-  display: flex;
-  gap: 64px;
-  list-style-type: none;
-}
-.header__link {
-  text-decoration: none;
-  color: #f0e3ca;
-}
+@import url(../../blocks/body/body.css);
+
+@import url(../../blocks/wrapper/wrapper.css);
+
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/header/__logo/header__logo.css);
+@import url(../../blocks/header/__menu/header__menu.css);
+@import url(../../blocks/header/__link/header__link.css);
+
 .profile {
 }
 .profile__content {
