@@ -1,0 +1,8 @@
+.block__cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style-type: none;
+}

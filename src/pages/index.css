@@ -24,20 +24,15 @@
 @import url(../../blocks/description/__image/description__image.css);
 @import url(../../blocks/description/__text/description__text.css);
 
-.skills {
-}
-.block {
-}
-.block__title {
-}
-.block__cards {
-}
-.skills__card {
-}
-.skills__image {
-}
-.skills__image-name {
-}
+@import url(../../blocks/block/block.css);
+@import url(../../blocks/block/__cards/block__cards.css);
+@import url(../../blocks/block/__title/block__title.css);
+
+@import url(../../blocks/skills/skills.css);
+@import url(../../blocks/skills/__card/skills__card.css);
+@import url(../../blocks/skills/__image-name/skills__image-name.css);
+@import url(../../blocks/skills/__image/skills__image.css);
+
 .works {
 }
 .works__card {
