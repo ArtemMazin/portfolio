@@ -1,0 +1,6 @@
+.skills__image_type_git {
+  background: url(../../../../images/git.svg) no-repeat;
+}
+.skills__image_type_git:hover {
+  background: url(../../../../images/git-hover.svg) no-repeat;
+}

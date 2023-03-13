@@ -1,0 +1,7 @@
+.skills__image_type_css {
+  width: 113px;
+  background: url(../../../../images/css.svg) no-repeat;
+}
+.skills__image_type_css:hover {
+  background: url(../../../../images/css-hover.svg) no-repeat;
+}

@@ -1,3 +1,6 @@
 .skills__image {
+  width: 128px;
+  height: 128px;
   border-radius: 17px;
+  transition: 0.6s ease-in-out;
 }

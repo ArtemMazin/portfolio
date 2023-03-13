@@ -1,0 +1,6 @@
+.skills__image_type_js {
+  background: url(../../../../images/js.svg) no-repeat;
+}
+.skills__image_type_js:hover {
+  background: url(../../../../images/js-hover.svg) no-repeat;
+}
