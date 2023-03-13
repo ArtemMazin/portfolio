@@ -4,10 +4,20 @@
   border-radius: 10px;
   text-decoration: none;
   color: #f0e3ca;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-out;
 }
 
 .header__link:hover {
-  border: #f0e3ca 1px solid;
-  color: #ff8303;
+  animation: border-pulsate 3s infinite alternate;
+}
+@keyframes border-pulsate {
+  0% {
+    border-color: #000;
+  }
+  50% {
+    border-color: #f0e3ca;
+  }
+  100% {
+    border-color: #ff8303;
+  }
 }

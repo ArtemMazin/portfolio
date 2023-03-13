@@ -34,32 +34,18 @@
 @import url(../../blocks/skills/__image-name/skills__image-name.css);
 @import url(../../blocks/skills/__image/skills__image.css);
 
-.works {
-}
-.works__card {
-}
-.works__image {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-}
-.footer {
-}
-.footer__description {
-}
-.footer__logo {
-}
-.footer__text {
-}
-.footer__menu {
-}
-.footer__title {
-}
-.footer__links {
-}
-.footer__link {
-}
-.footer__link-svg {
-}
-.footer__link-text {
-}
+@import url(../../blocks/works/works.css);
+@import url(../../blocks/works/__card/works__card.css);
+@import url(../../blocks/works/__image/works__image.css);
+
+@import url(../../blocks/footer/footer.css);
+@import url(../../blocks/footer/__description/footer__description.css);
+@import url(../../blocks/footer/__github-svg/footer__github-svg.css);
+@import url(../../blocks/footer/__link-text/footer__link-text.css);
+@import url(../../blocks/footer/__link/footer__link.css);
+@import url(../../blocks/footer/__links/footer__links.css);
+@import url(../../blocks/footer/__logo/footer__logo.css);
+@import url(../../blocks/footer/__mail-svg/footer__mail-svg.css);
+@import url(../../blocks/footer/__menu/footer__menu.css);
+@import url(../../blocks/footer/__text/footer__text.css);
+@import url(../../blocks/footer/__title/footer__title.css);
