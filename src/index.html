@@ -22,11 +22,8 @@
         <a
           href="https://github.com/ArtemMazin"
           target="_blank"
-          ><img
-            src="../images/git.svg"
-            alt="Мой гитхаб"
-            class="header__logo"
-        /></a>
+          ><div class="header__logo"></div
+        ></a>
         <ul class="header__menu">
           <li>
             <a
@@ -59,188 +56,186 @@
         </ul>
       </header>
     </div>
-    <div class="wrapper">
-      <main>
-        <section class="profile">
-          <div class="profile__content">
-            <div class="profile__about">
-              <h1 class="profile__title">Артем Мазин</h1>
-              <h2 class="profile__subtitle">Frontend Developer</h2>
-              <p class="profile__text">
-                Frontend-разработчик, ищущий идеи и создающий проекты для себя и
-                других
-              </p>
-            </div>
-            <div class="profile__background">
-              <img
-                src="../images/avatar.png"
-                alt=""
-                class="profile__avatar" />
-            </div>
+    <main>
+      <section class="profile wrapper">
+        <div class="profile__content">
+          <div class="profile__about">
+            <h1 class="profile__title">Артем Мазин</h1>
+            <h2 class="profile__subtitle">Frontend Developer</h2>
+            <p class="profile__text">
+              Frontend-разработчик, ищущий идеи и создающий проекты для себя и
+              других
+            </p>
           </div>
-        </section>
-        <section class="description">
-          <img
-            src="../images/logo.svg"
-            alt=""
-            class="description__image" />
-          <p class="description__text">
-            Несколько месяцев назад я заинтересовался разработкой веб-сайтов и
-            интерфейсов. С тех пор я неуклонно совершенствую свои навыки. Сейчас
-            я разрабатываю веб-сайты и веб-приложения на заказ или для себя.
-          </p>
-        </section>
-
-        <section
-          class="skills"
-          id="skills">
-          <div class="block">
-            <h2 class="block__title">Мои навыки</h2>
-            <ul class="block__cards">
-              <li class="skills__card">
-                <img
-                  src="../images/html.svg"
-                  alt=""
-                  srcset=""
-                  class="skills__image" />
-                <h3 class="skills__image-name">HTML5</h3>
-              </li>
-              <li class="skills__card">
-                <img
-                  src="../images/css.svg"
-                  alt=""
-                  srcset=""
-                  class="skills__image" />
-                <h3 class="skills__image-name">CSS3</h3>
-              </li>
-              <li class="skills__card">
-                <img
-                  src="../images/js.svg"
-                  alt=""
-                  srcset=""
-                  class="skills__image" />
-                <h3 class="skills__image-name">JavaScript</h3>
-              </li>
-              <li class="skills__card">
-                <img
-                  src="../images/git.svg"
-                  alt=""
-                  srcset=""
-                  class="skills__image" />
-                <h3 class="skills__image-name">Git</h3>
-              </li>
-              <li class="skills__card">
-                <img
-                  src="../images/bem.svg"
-                  alt=""
-                  srcset=""
-                  class="skills__image" />
-                <h3 class="skills__image-name">BEM</h3>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section
-          class="works"
-          id="works">
-          <div class="block">
-            <h2 class="block__title">Мои работы</h2>
-            <ul class="block__cards">
-              <li>
-                <a
-                  href="https://github.com/ArtemMazin/to-do.git"
-                  target="_blank"
-                  class="works__card"
-                  ><img
-                    src="../images/preview-todo.png"
-                    alt=""
-                    srcset=""
-                    class="works__image"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/ArtemMazin/mesto.git"
-                  target="_blank"
-                  class="works__card"
-                  ><img
-                    src="../images/preview-mesto.png"
-                    alt=""
-                    srcset=""
-                    class="works__image"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/ArtemMazin/Discover.git"
-                  target="_blank"
-                  class="works__card"
-                  ><img
-                    src="../images/preview-discover.png"
-                    alt=""
-                    srcset=""
-                    class="works__image"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-      <footer
-        class="footer"
-        id="contacts">
-        <div class="footer__description">
-          <a href=""
-            ><img
-              src=""
+          <div class="profile__background">
+            <img
+              src="../images/avatar.png"
               alt=""
-              class="footer__logo"
-          /></a>
-          <p class="footer__text"></p>
+              class="profile__avatar" />
+          </div>
         </div>
-        <div class="footer__menu">
-          <h2 class="footer__title"></h2>
-          <ul class="footer__links">
-            <li class="footer__link">
-              <a href=""
-                ><img
-                  src=""
-                  alt=""
-                  class="footer__link-svg" />
-                <p class="footer__link-text"></p
-              ></a>
+      </section>
+      <section class="description wrapper">
+        <img
+          src="../images/logo.svg"
+          alt=""
+          class="description__image" />
+        <p class="description__text">
+          Несколько месяцев назад я заинтересовался разработкой веб-сайтов и
+          интерфейсов. С тех пор я неуклонно совершенствую свои навыки. Сейчас я
+          разрабатываю веб-сайты и веб-приложения на заказ или для себя.
+        </p>
+      </section>
+
+      <section
+        class="skills wrapper"
+        id="skills">
+        <div class="block">
+          <h2 class="block__title">Мои навыки</h2>
+          <ul class="block__cards">
+            <li class="skills__card">
+              <img
+                src="../images/html.svg"
+                alt=""
+                srcset=""
+                class="skills__image" />
+              <h3 class="skills__image-name">HTML5</h3>
             </li>
-            <li class="footer__link">
-              <a href=""
-                ><img
-                  src=""
-                  alt=""
-                  class="footer__link-svg" />
-                <p class="footer__link-text"></p
-              ></a>
+            <li class="skills__card">
+              <img
+                src="../images/css.svg"
+                alt=""
+                srcset=""
+                class="skills__image" />
+              <h3 class="skills__image-name">CSS3</h3>
             </li>
-            <li class="footer__link">
-              <a href=""
-                ><img
-                  src=""
-                  alt=""
-                  class="footer__link-svg" />
-                <p class="footer__link-text"></p
-              ></a>
+            <li class="skills__card">
+              <img
+                src="../images/js.svg"
+                alt=""
+                srcset=""
+                class="skills__image" />
+              <h3 class="skills__image-name">JavaScript</h3>
             </li>
-            <li class="footer__link">
-              <a href=""
-                ><img
-                  src=""
-                  alt=""
-                  class="footer__link-svg" />
-                <p class="footer__link-text"></p
-              ></a>
+            <li class="skills__card">
+              <img
+                src="../images/git.svg"
+                alt=""
+                srcset=""
+                class="skills__image" />
+              <h3 class="skills__image-name">Git</h3>
+            </li>
+            <li class="skills__card">
+              <img
+                src="../images/bem.svg"
+                alt=""
+                srcset=""
+                class="skills__image" />
+              <h3 class="skills__image-name">BEM</h3>
             </li>
           </ul>
         </div>
-      </footer>
-    </div>
+      </section>
+      <section
+        class="works wrapper"
+        id="works">
+        <div class="block">
+          <h2 class="block__title">Мои работы</h2>
+          <ul class="block__cards">
+            <li>
+              <a
+                href="https://github.com/ArtemMazin/to-do.git"
+                target="_blank"
+                class="works__card"
+                ><img
+                  src="../images/preview-todo.png"
+                  alt=""
+                  srcset=""
+                  class="works__image"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/ArtemMazin/mesto.git"
+                target="_blank"
+                class="works__card"
+                ><img
+                  src="../images/preview-mesto.png"
+                  alt=""
+                  srcset=""
+                  class="works__image"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/ArtemMazin/Discover.git"
+                target="_blank"
+                class="works__card"
+                ><img
+                  src="../images/preview-discover.png"
+                  alt=""
+                  srcset=""
+                  class="works__image"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="footer wrapper"
+      id="contacts">
+      <div class="footer__description">
+        <a href=""
+          ><img
+            src=""
+            alt=""
+            class="footer__logo"
+        /></a>
+        <p class="footer__text"></p>
+      </div>
+      <div class="footer__menu">
+        <h2 class="footer__title"></h2>
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a href=""
+              ><img
+                src=""
+                alt=""
+                class="footer__link-svg" />
+              <p class="footer__link-text"></p
+            ></a>
+          </li>
+          <li class="footer__link">
+            <a href=""
+              ><img
+                src=""
+                alt=""
+                class="footer__link-svg" />
+              <p class="footer__link-text"></p
+            ></a>
+          </li>
+          <li class="footer__link">
+            <a href=""
+              ><img
+                src=""
+                alt=""
+                class="footer__link-svg" />
+              <p class="footer__link-text"></p
+            ></a>
+          </li>
+          <li class="footer__link">
+            <a href=""
+              ><img
+                src=""
+                alt=""
+                class="footer__link-svg" />
+              <p class="footer__link-text"></p
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script src="./pages/index.js"></script>
   </body>
 </html>

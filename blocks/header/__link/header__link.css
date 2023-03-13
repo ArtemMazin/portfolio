@@ -1,4 +1,13 @@
 .header__link {
+  padding: 10px;
+  border: #1b1a17 1px solid;
+  border-radius: 10px;
   text-decoration: none;
   color: #f0e3ca;
+  transition: 0.4s ease-in-out;
+}
+
+.header__link:hover {
+  border: #f0e3ca 1px solid;
+  color: #ff8303;
 }

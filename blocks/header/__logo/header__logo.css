@@ -2,4 +2,9 @@
   display: block;
   width: 60px;
   height: 60px;
+  background: url(../../../images/git.svg) no-repeat center / cover;
+  transition: 0.4s ease-in-out;
+}
+.header__logo:hover {
+  background: url(../../../images/git-hover.svg) no-repeat center / cover;
 }
