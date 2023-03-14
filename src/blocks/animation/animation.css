@@ -1,0 +1,9 @@
+.animation {
+  opacity: 0;
+  transition: 1.3s;
+  transform: translateY(10%);
+}
+.animation.animation_show {
+  opacity: 1;
+  transform: translateY(0%);
+}
