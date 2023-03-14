@@ -28,3 +28,13 @@ let elements = document.querySelectorAll('.animation');
 for (let elm of elements) {
   observer.observe(elm);
 }
+
+//Плавная прокрутка
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+ScrollSmoother.create({
+  wrapper: '.wrap',
+  content: '.content',
+  smooth: 2,
+  effects: true,
+});

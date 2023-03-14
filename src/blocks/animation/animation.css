@@ -1,7 +1,7 @@
 .animation {
   opacity: 0;
-  transition: 1.3s;
-  transform: translateY(10%);
+  transition: 1.5s;
+  transform: translateY(15%);
 }
 .animation.animation_show {
   opacity: 1;
