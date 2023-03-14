@@ -22,7 +22,7 @@ function onEntry(entry) {
     }
   });
 }
-let options = { threshold: [0.4] };
+let options = { threshold: [0.35] };
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.animation');
 for (let elm of elements) {

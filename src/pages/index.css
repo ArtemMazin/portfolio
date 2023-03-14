@@ -60,3 +60,22 @@
 html {
   scroll-behavior: smooth;
 }
+.gallery {
+  display: flex;
+  gap: 100px;
+}
+.gallery__left {
+  margin-top: 100px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.gallery__right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
