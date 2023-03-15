@@ -24,12 +24,12 @@
     <script
       src="./libs/gsap/ScrollSmoother.min.js"
       defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js" defer></script>
     <script
       src="./pages/index.js"
       defer></script>
   </head>
-  <div class="wrap">
-    <div class="content">
+  
       <body class="body">
         <div class="header-container">
           <header class="header">
@@ -40,36 +40,39 @@
             ></a>
             <ul class="header__menu">
               <li>
-                <a
-                  href="#"
+                <p
+                  id="about-link"
                   class="header__link"
-                  >Обо мне</a
+                  >Обо мне</p
+                >
+              </li>
+              <li > 
+                <p
+                id="skills-link"
+                  class="header__link"
+                  
+                  >Навыки</p
                 >
               </li>
               <li>
-                <a
-                  href="#skills"
+                <p
+                  id="works-link"
                   class="header__link"
-                  >Навыки</a
+                  >Мои работы</p
                 >
               </li>
               <li>
-                <a
-                  href="#works"
+                <p
+                  id="contacts-link"
                   class="header__link"
-                  >Мои работы</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#contacts"
-                  class="header__link"
-                  >Контакты</a
+                  >Контакты</p
                 >
               </li>
             </ul>
           </header>
         </div>
+        <div class="wrap">
+          <div class="content">
         <main>
           <section
             data-speed=".8"

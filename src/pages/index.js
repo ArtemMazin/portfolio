@@ -38,3 +38,21 @@ ScrollSmoother.create({
   smooth: 2,
   effects: true,
 });
+
+//якорные ссылки
+const scrollAbout = document.querySelector('#about-link');
+scrollAbout.addEventListener('click', () => {
+  gsap.to(window, { duration: 0.5, scrollTo: '.profile', ease: 'elastic' });
+});
+const scrollSkills = document.querySelector('#skills-link');
+scrollSkills.addEventListener('click', () => {
+  gsap.to(window, { duration: 0.5, scrollTo: '.skills', ease: 'elastic' });
+});
+const scrollWorks = document.querySelector('#works-link');
+scrollWorks.addEventListener('click', () => {
+  gsap.to(window, { duration: 0.5, scrollTo: '.works', ease: 'elastic' });
+});
+const scrollContacts = document.querySelector('#contacts-link');
+scrollContacts.addEventListener('click', () => {
+  gsap.to(window, { duration: 0.5, scrollTo: '.footer', ease: 'elastic' });
+});
