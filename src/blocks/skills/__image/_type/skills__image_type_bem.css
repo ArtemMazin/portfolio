@@ -1,6 +1,3 @@
 .skills__image_type_bem {
-  background: url(../../../../images/bem.svg) no-repeat;
-}
-.skills__image_type_bem:hover {
   background: url(../../../../images/bem-hover.svg) no-repeat;
 }

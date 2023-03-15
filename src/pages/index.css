@@ -57,31 +57,10 @@
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__title/footer__title.css);
 
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__left/gallery__left.css);
+@import url(../blocks/gallery/__right/gallery__right.css);
+
 html {
   scroll-behavior: smooth;
-}
-.gallery {
-  margin-top: 50px;
-  display: flex;
-  gap: 100px;
-}
-.gallery__left {
-  padding: 0;
-  list-style-type: none;
-  margin-top: 70px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-}
-.gallery__right {
-  padding: 0;
-  list-style-type: none;
-  margin-top: 30px;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
 }

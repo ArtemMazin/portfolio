@@ -1,0 +1,5 @@
+.gallery {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}

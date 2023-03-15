@@ -1,7 +1,4 @@
 .skills__image_type_html {
   width: 113px;
-  background: url(../../../../images/html.svg) no-repeat;
-}
-.skills__image_type_html:hover {
   background: url(../../../../images/html-hover.svg) no-repeat;
 }
