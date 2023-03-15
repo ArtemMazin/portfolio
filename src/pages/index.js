@@ -56,3 +56,39 @@ const scrollContacts = document.querySelector('#contacts-link');
 scrollContacts.addEventListener('click', () => {
   gsap.to(window, { duration: 0.5, scrollTo: '.footer', ease: 'elastic' });
 });
+
+//Опасити и сближение при скролле
+let itemsL = gsap.utils.toArray('.gallery__left .gallery__item');
+itemsL.forEach((item) => {
+  gsap.fromTo(
+    item,
+    { x: -100, opacity: 0 },
+    {
+      opacity: 1,
+      x: 0,
+      scrollTrigger: {
+        trigger: '.gallery__item',
+        start: '-700',
+        end: '-200',
+        scrub: true,
+      },
+    }
+  );
+});
+let itemsR = gsap.utils.toArray('.gallery__right .gallery__item');
+itemsR.forEach((item) => {
+  gsap.fromTo(
+    item,
+    { x: 100, opacity: 0 },
+    {
+      opacity: 1,
+      x: 0,
+      scrollTrigger: {
+        trigger: '.gallery__item',
+        start: '-700',
+        end: '-200',
+        scrub: true,
+      },
+    }
+  );
+});
