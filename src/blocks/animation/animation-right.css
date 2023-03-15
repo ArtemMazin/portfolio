@@ -1,0 +1,9 @@
+.animation-right {
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateX(20%);
+}
+.animation-right.animation-right_show {
+  opacity: 1;
+  transform: translateX(0%);
+}

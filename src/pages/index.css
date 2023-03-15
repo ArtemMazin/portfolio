@@ -5,7 +5,7 @@
 
 @import url(../blocks/wrapper/wrapper.css);
 
-@import url(../blocks/animation/animation.css);
+@import url(../blocks/animation/animation-right.css);
 
 @import url(../blocks/header-container/header-container.css);
 @import url(../blocks/header/header.css);
@@ -61,21 +61,27 @@ html {
   scroll-behavior: smooth;
 }
 .gallery {
+  margin-top: 50px;
   display: flex;
   gap: 100px;
 }
 .gallery__left {
-  margin-top: 100px;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 70px;
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
+  gap: 30px;
 }
 .gallery__right {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 30px;
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }

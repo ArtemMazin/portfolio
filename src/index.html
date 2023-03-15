@@ -24,84 +24,87 @@
     <script
       src="./libs/gsap/ScrollSmoother.min.js"
       defer></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"
+      defer></script>
     <script
       src="./pages/index.js"
       defer></script>
   </head>
-  
-      <body class="body">
-        <div class="header-container">
-          <header class="header">
-            <a
-              href="https://github.com/ArtemMazin"
-              target="_blank"
-              ><div class="header__logo"></div
-            ></a>
-            <ul class="header__menu">
-              <li>
-                <p
-                  id="about-link"
-                  class="header__link"
-                  >Обо мне</p
-                >
-              </li>
-              <li > 
-                <p
-                id="skills-link"
-                  class="header__link"
-                  
-                  >Навыки</p
-                >
-              </li>
-              <li>
-                <p
-                  id="works-link"
-                  class="header__link"
-                  >Мои работы</p
-                >
-              </li>
-              <li>
-                <p
-                  id="contacts-link"
-                  class="header__link"
-                  >Контакты</p
-                >
-              </li>
-            </ul>
-          </header>
-        </div>
-        <div class="wrap">
-          <div class="content">
+
+  <body class="body">
+    <div class="header-container">
+      <header class="header">
+        <a
+          href="https://github.com/ArtemMazin"
+          target="_blank"
+          ><div class="header__logo"></div
+        ></a>
+        <ul class="header__menu">
+          <li>
+            <p
+              id="about-link"
+              class="header__link">
+              Обо мне
+            </p>
+          </li>
+          <li>
+            <p
+              id="skills-link"
+              class="header__link">
+              Навыки
+            </p>
+          </li>
+          <li>
+            <p
+              id="works-link"
+              class="header__link">
+              Мои работы
+            </p>
+          </li>
+          <li>
+            <p
+              id="contacts-link"
+              class="header__link">
+              Контакты
+            </p>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <div class="wrap">
+      <div class="content">
         <main>
           <section
             data-speed=".8"
-            class="profile wrapper">
-            <div class="profile__content">
-              <div class="profile__about">
-                <h1 class="profile__title">Артем Мазин</h1>
-                <h2 class="profile__subtitle">
-                  &#8249;Frontend Developer&#8250;
-                </h2>
-                <p class="profile__text">
-                  Frontend-разработчик, ищущий идеи и создающий проекты для себя
-                  и других
-                </p>
-              </div>
-              <div class="profile__background">
-                <img
-                  src="./images/avatar.png"
-                  alt=""
-                  class="profile__avatar" />
+            class="profile">
+            <div class="wrapper">
+              <div class="profile__content">
+                <div class="profile__about">
+                  <h1 class="profile__title">Артем Мазин</h1>
+                  <h2 class="profile__subtitle">
+                    &#8249;Frontend Developer&#8250;
+                  </h2>
+                  <p class="profile__text">
+                    Frontend-разработчик, ищущий идеи и создающий проекты для
+                    себя и других
+                  </p>
+                </div>
+                <div class="profile__background">
+                  <img
+                    src="./images/avatar.png"
+                    alt=""
+                    class="profile__avatar" />
+                </div>
               </div>
             </div>
           </section>
-          <section class="description wrapper animation">
+          <section class="description wrapper">
             <img
               src="./images/logo.svg"
               alt=""
               class="description__image" />
-            <p class="description__text">
+            <p class="description__text animation-right">
               Несколько месяцев назад я заинтересовался разработкой веб-сайтов и
               интерфейсов. С тех пор я неуклонно совершенствую свои навыки.
               Сейчас я разрабатываю веб-сайты и веб-приложения на заказ или для
@@ -114,85 +117,88 @@
             id="skills">
             <div class="block">
               <h2 class="block__title">&#8249;Мои навыки&#8250;</h2>
+
+              <ul class="block__cards">
+                <li class="skills__card">
+                  <div class="skills__image skills__image_type_html"></div>
+
+                  <h3 class="skills__image-name">HTML5</h3>
+                </li>
+                <li class="skills__card">
+                  <div class="skills__image skills__image_type_css"></div>
+                  <h3 class="skills__image-name">CSS3</h3>
+                </li>
+
+                <li class="skills__card">
+                  <div class="skills__image skills__image_type_js"></div>
+                  <h3 class="skills__image-name">JavaScript</h3>
+                </li>
+                <li class="skills__card">
+                  <div class="skills__image skills__image_type_git"></div>
+                  <h3 class="skills__image-name">Git</h3>
+                </li>
+                <li class="skills__card">
+                  <div class="skills__image skills__image_type_bem"></div>
+                  <h3 class="skills__image-name">BEM</h3>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section
+            class="works wrapper"
+            id="works">
+            <div class="block">
+              <h2 class="block__title">&#8249;Мои работы&#8250;</h2>
               <div class="gallery">
                 <ul
-                  data-speed=".9"
+                  data-speed="1.1"
                   class="gallery__left">
-                  <li class="skills__card">
-                    <div class="skills__image skills__image_type_html"></div>
-
-                    <h3 class="skills__image-name">HTML5</h3>
-                  </li>
-                  <li class="skills__card">
-                    <div class="skills__image skills__image_type_css"></div>
-                    <h3 class="skills__image-name">CSS3</h3>
+                  <li>
+                    <a
+                      href="https://github.com/ArtemMazin/to-do.git"
+                      target="_blank"
+                      class="works__card"
+                      ><img
+                        src="./images/preview-todo.png"
+                        alt=""
+                        srcset=""
+                        class="works__image"
+                    /></a>
                   </li>
                 </ul>
                 <ul
-                  data-speed="1.15"
+                  data-speed=".9"
                   class="gallery__right">
-                  <li class="skills__card">
-                    <div class="skills__image skills__image_type_js"></div>
-                    <h3 class="skills__image-name">JavaScript</h3>
+                  <li>
+                    <a
+                      href="https://github.com/ArtemMazin/Discover.git"
+                      target="_blank"
+                      class="works__card"
+                      ><img
+                        src="./images/preview-discover.png"
+                        alt=""
+                        srcset=""
+                        class="works__image"
+                    /></a>
                   </li>
-                  <li class="skills__card">
-                    <div class="skills__image skills__image_type_git"></div>
-                    <h3 class="skills__image-name">Git</h3>
-                  </li>
-                  <li class="skills__card">
-                    <div class="skills__image skills__image_type_bem"></div>
-                    <h3 class="skills__image-name">BEM</h3>
+                  <li>
+                    <a
+                      href="https://github.com/ArtemMazin/mesto.git"
+                      target="_blank"
+                      class="works__card"
+                      ><img
+                        src="./images/preview-mesto.png"
+                        alt=""
+                        srcset=""
+                        class="works__image"
+                    /></a>
                   </li>
                 </ul>
               </div>
             </div>
           </section>
-          <section
-            class="works wrapper animation"
-            id="works">
-            <div class="block">
-              <h2 class="block__title">&#8249;Мои работы&#8250;</h2>
-              <ul class="block__cards">
-                <li>
-                  <a
-                    href="https://github.com/ArtemMazin/to-do.git"
-                    target="_blank"
-                    class="works__card"
-                    ><img
-                      src="./images/preview-todo.png"
-                      alt=""
-                      srcset=""
-                      class="works__image"
-                  /></a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/ArtemMazin/mesto.git"
-                    target="_blank"
-                    class="works__card"
-                    ><img
-                      src="./images/preview-mesto.png"
-                      alt=""
-                      srcset=""
-                      class="works__image"
-                  /></a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/ArtemMazin/Discover.git"
-                    target="_blank"
-                    class="works__card"
-                    ><img
-                      src="./images/preview-discover.png"
-                      alt=""
-                      srcset=""
-                      class="works__image"
-                  /></a>
-                </li>
-              </ul>
-            </div>
-          </section>
         </main>
+
         <footer
           class="footer wrapper"
           id="contacts">
@@ -231,7 +237,7 @@
             </ul>
           </div>
         </footer>
-      </body>
+      </div>
     </div>
-  </div>
+  </body>
 </html>

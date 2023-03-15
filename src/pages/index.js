@@ -18,13 +18,13 @@ profileSection.addEventListener('mousemove', parallax);
 function onEntry(entry) {
   entry.forEach((change) => {
     if (change.isIntersecting) {
-      change.target.classList.add('animation_show');
+      change.target.classList.add('animation-right_show');
     }
   });
 }
 let options = { threshold: [0.35] };
 let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll('.animation');
+let elements = document.querySelectorAll('.animation-right');
 for (let elm of elements) {
   observer.observe(elm);
 }
