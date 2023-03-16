@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/html/html.css);
+
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/wrapper/wrapper.css);
@@ -61,6 +63,10 @@
 @import url(../blocks/gallery/__left/gallery__left.css);
 @import url(../blocks/gallery/__right/gallery__right.css);
 
-html {
-  scroll-behavior: smooth;
-}
+@import url(../blocks/wrapp-slider/wrapp-slider.css);
+
+@import url(../blocks/main-wrapper/main-wrapper.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__img/slider__img.css);

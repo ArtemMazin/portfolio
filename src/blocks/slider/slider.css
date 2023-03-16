@@ -1,0 +1,12 @@
+.slider {
+  transform: rotate(12.5deg);
+}
+.slider:nth-child(odd) {
+  transform: rotate(192.5deg);
+}
+.slider .slider__wrapper {
+  transition: 1.2s ease-out !important;
+}
+.slider:nth-child(odd) .slider__img {
+  transform: rotate(-180deg);
+}

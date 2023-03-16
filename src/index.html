@@ -16,6 +16,12 @@
       href="./pages/index.css" />
     <title>Мазин Артем</title>
     <script
+      src="./libs/swiper/swiper-bundle.min.js"
+      defer></script>
+    <script
+      src="./libs/swiper/bindSwipers.js"
+      defer></script>
+    <script
       src="./libs/gsap/gsap.min.js"
       defer></script>
     <script
@@ -72,7 +78,7 @@
         </ul>
       </header>
     </div>
-    <div class="wrap">
+    <div class="wrapper">
       <div class="content">
         <main>
           <section
@@ -116,39 +122,166 @@
             class="skills wrapper"
             id="skills">
             <div class="block">
-              <h2 class="block__title">&#8249;Мои навыки&#8250;</h2>
-
-              <ul class="block__cards">
-                <li class="skills__card">
-                  <div class="skills__image skills__image_type_html"></div>
-
-                  <h3 class="skills__image-name">HTML5</h3>
-                </li>
-                <li class="skills__card">
-                  <div class="skills__image skills__image_type_css"></div>
-                  <h3 class="skills__image-name">CSS3</h3>
-                </li>
-
-                <li class="skills__card">
-                  <div class="skills__image skills__image_type_js"></div>
-                  <h3 class="skills__image-name">JavaScript</h3>
-                </li>
-                <li class="skills__card">
-                  <div class="skills__image skills__image_type_git"></div>
-                  <h3 class="skills__image-name">Git</h3>
-                </li>
-                <li class="skills__card">
-                  <div class="skills__image skills__image_type_bem"></div>
-                  <h3 class="skills__image-name">BEM</h3>
-                </li>
-              </ul>
+              <h2 class="block__title animation-right">
+                &#8249;Мои навыки&#8250;
+              </h2>
+              <div class="wrapp-slider">
+                <div class="main-wrapper">
+                  <div class="swiper slider slider1">
+                    <div class="swiper-wrapper slider__wrapper">
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_html.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_css.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_git.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_js.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper slider slider2">
+                    <div class="swiper-wrapper slider__wrapper">
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_js.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_css.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_html.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_git.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper slider slider3">
+                    <div class="swiper-wrapper slider__wrapper">
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_css.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_git.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_html.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_js.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper slider slider4">
+                    <div class="swiper-wrapper slider__wrapper">
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_git.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_js.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_css.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                      <div class="swiper-slide slider__item">
+                        <div
+                          class="slider__img"
+                          style="
+                            background: url(./images/card_skill_html.png)
+                              no-repeat center;
+                          "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section
             class="works wrapper"
             id="works">
             <div class="block">
-              <h2 class="block__title">&#8249;Мои работы&#8250;</h2>
+              <h2 class="block__title animation-right">
+                &#8249;Мои работы&#8250;
+              </h2>
               <div class="gallery">
                 <ul
                   data-speed="1.1"
@@ -238,7 +371,9 @@
             </p>
           </div>
           <div class="footer__menu">
-            <h2 class="footer__title">&#8249;Контакты&#8250;</h2>
+            <h2 class="footer__title animation-right">
+              &#8249;Контакты&#8250;
+            </h2>
             <ul class="footer__links">
               <li>
                 <a

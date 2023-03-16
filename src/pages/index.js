@@ -93,3 +93,34 @@ itemsR.forEach((item) => {
     }
   );
 });
+
+//Слайдер
+let slider1 = new Swiper('.slider1', {
+  freeMode: true,
+  centeredSlides: true,
+  direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 1.5,
+});
+let slider2 = new Swiper('.slider2', {
+  freeMode: true,
+  centeredSlides: true,
+  direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 1.5,
+});
+let slider3 = new Swiper('.slider3', {
+  freeMode: true,
+  centeredSlides: true,
+  direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 1.5,
+});
+let slider4 = new Swiper('.slider4', {
+  freeMode: true,
+  centeredSlides: true,
+  direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 1.5,
+});
+bindSwipers(slider1, slider2, slider3, slider4);
